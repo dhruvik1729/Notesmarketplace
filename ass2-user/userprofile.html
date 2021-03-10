@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 ,user-scalable=no">
+    
+    <title> Notes MarketPlace</title>
+    
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <div class="wrapper">
+        <header class="site-header">
+          <div class="header-wrapper">
+            <div class="logo-wrapper">
+              <img src="images/logo.png" alt="logo">
+            </div>
+            <div class="navigation-wrapper">
+              <nav class="main-nav">  
+                 <ul class="menu-navigation">
+                    <li>
+                      <a href="search.html">Search Notes</a>
+                    </li>
+                    <li>
+                      <a href="userprofile.html">Sell your Notes</a>
+                    </li>
+                    <li>
+                      <a href="FAQ.html">FAQ</a>
+                    </li>
+                    <li>
+                      <a href="contactus.html">Contact Us</a>
+                    </li>
+                    
+                    <li><a href="login.html"><button  class="btn nav-lgn" >Login</button></a></li>
+                  </ul>     
+              </nav>
+            </div>
+          </div>
+        </header> 
+    </div>
+    <section id="userprofile">
+        <div class="overlay">
+            <div class="head1  text-center">
+                <h3>User Profile</h3>
+            </div>
+        </div>
+    </section>
+       <section id="userprofile2">
+        <div class="container-up" >
+           <form>
+           <div class="head2">
+                        <p>Basic Profile Details</p>
+                    </div>
+            <div class="row">
+                   
+                    <div class="col-md-6 head3">
+                        <p>First Name*</p>
+                        <input type="text" class="form-control" placeholder="enter your first name" id="name">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Last Name*</p>
+                        <input type="text" class="form-control" placeholder="enter your last name" id="name">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Email*</p>
+                        <input type="email" class="form-control" placeholder="enter your email" id="email">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Date of Birth</p>
+                        <input type="date" class="form-control" placeholder="enter your Date of birth" id="date">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Gender</p>
+                        <select name="gender" class="form-control" id="gender" placeholder="Select your gender">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="other">Others</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Phone Number</p>
+                        <div class="row">
+                        <div class="col-md-3">
+                        <select name="code" class="form-control" id="code">
+                          <option value="-91">+91</option>
+                          <option value="+401">+401</option>
+                          <option value="+95">+95</option>
+                        </select>
+                        </div>
+                        <div class="col-md-9">
+                        <input type="number" class="form-control" placeholder="enter your phone number">
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 head3 uplast ">
+                        <p>Profile Picture</p>
+                        
+                        <input type="image" class="form-control pp" src="images/upload-file.png" alt="profile picture" >
+              
+                    </div>
+               </div>
+                      
+                       <div class="head2">
+                        <p>Address Details</p>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-6 head3">
+                        <p>Address line 1*</p>
+                        <input type="text" class="form-control" placeholder="Enter your address">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>Address line 2</p>
+                        <input type="text" class="form-control" placeholder="Enter your address">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>City*</p>
+                        <input type="text" class="form-control" placeholder="Enter your City">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>State*</p>
+                        <input type="text" class="form-control" placeholder="Enter your State">
+                    </div>
+                    <div class="col-md-6 head3 uplast">
+                        <p>Pincode*</p>
+                        <input type="number" class="form-control" placeholder="Enter your pincode">
+                    </div>
+                    <div class="col-md-6 head3 uplast">
+                        <p>Country*</p>
+                        <input type="text" class="form-control" placeholder="Enter your country">
+                    </div>
+                    </div>
+                        <div class="head2">
+                        <p>University And College Information</p>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-6 head3">
+                        <p>University</p>
+                        <input type="text" class="form-control" placeholder="Enter your University">
+                    </div>
+                    <div class="col-md-6 head3">
+                        <p>College</p>
+                        <input type="text" class="form-control" placeholder="Enter your college">
+                    </div>
+                    <div class="col-md-12">
+                        <button class="btn submit-btn" value="submit" >SUBMIT</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer  -->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="pull-left">
+                        Copyright &copy; Tatvasoft All Rights Reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 ">
+                  <div class="ss-right pull-right">
+                   <a href="#facebook.com/" class="ss-icon" ><img class="ss-img" src="images/facebook.png"></a>
+                   <a href="twitter.com" class="ss-icon " ><img class="ss-img" src="images/twitter.png"></a>
+                   <a href="linkedin.com" class="ss-icon" ><img class="ss-img" src="images/linkedin.png"></a>
+                   </div>
+                </div>
+            </div>
+        </div>      
+    </footer>
+    <!--pooper-->
+    <script src="js/popper.min.js"></script>
+    <!--bootstrap js-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--jquery-->
+    <script src="js/jquery.js"></script>
+    
+    <!--custom js-->
+    <script src="js/style.js"></script>
+</body>
+</html>

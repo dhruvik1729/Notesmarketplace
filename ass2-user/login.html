@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 ,user-scalable=no">
+    
+    <title> Notes MarketPlace</title>
+    
+    <!-- fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+</head>
+<body>
+   <!--login -->
+   <section id="login" >
+          <div id="overlay"></div>
+          <div class="container-lgn1">
+            <div id="logo"> 
+                   <img src="images/top-logo.png">
+            </div>
+            <form class="container-lgn">
+                 <div class="row">
+                      <div class="text-center col-md-12 log-head1">
+                          <p>Login</p>
+                          
+                      </div>
+                      <div class="text-center col-md-12 log-head2">
+                          <p>Enter your email address and password to login</p>
+                      </div>
+                      <div class="col-md-12">
+                                 <div class="row">
+                                  <div class="email-lable col-md-12">
+                                      <p >Email</p> 
+                                  </div> 
+                                  <div class="form-group col-md-12 ">
+                                        <input type="email" class="form-control input-text" id="email" placeholder="Enter your Email">
+                                  </div>
+                                  <div class="password-lable col-md-6">
+                                      <p >Password</p> 
+                                  </div>
+                                  
+                                  <div id="forgot-btn1" class="col-md-6">
+                                      <a href="#" class="forgot-btn">Forgot Password?</a>
+                                  </div>
+                                  
+                                  <div class=" form-group col-md-12">
+                                        <input type="password" class="form-control input-password" name="password" value="secret" id="password-field" placeholder="Enter Your Password">
+                                         <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                                  </div>
+                                  <div >
+                                     
+                                  </div>
+                                  <div class="wp-msg col-md-12">
+                                      <small>The Password that you've entered is incorrect.</small>
+                                  </div>
+                                  <div class=" col-md-1">
+                                      <input class="check-box1" type="checkbox" id="remember" name="remember" value="remember">
+                                      
+                                  </div>
+                                  <div class="col-md-11">
+                                      <label class="rme">Remember Me</label><br>
+                                  </div>
+                                  <div class=" col-md-12">
+                                      <button class="login-btn btn " type="submit" href="#">LOGIN</button>
+                                  </div>
+                                  <div class="ltext col-md-12">
+                                      <p class="ltext1">Don't have an account?</p>
+                                      <a class="ltext2" href="#">Sign Up</a>
+                                  </div>
+                              </div>
+                      </div>
+                </div>
+             </form>
+          </div>
+   </section>
+    <!--bootstrap js-->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!--jquery-->
+    <script src="js/jquery.js"></script>
+    <!--custom js-->
+    <script src="js/style.js"></script>
+</body>
+</html>
